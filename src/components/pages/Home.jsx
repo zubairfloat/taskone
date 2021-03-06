@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
-import { Header, Connect } from '../layouts/home02/index'
+import {
+  Header,
+  Connect,
+  Section2,
+  AboutUser,
+  Footer,
+} from '../layouts/home02/index'
 
 class Home extends Component {
   constructor(props) {
@@ -44,6 +50,7 @@ class Home extends Component {
       <div>
         <Header />
         <Connect />
+        <Section2 />
       </div>
     )
   }

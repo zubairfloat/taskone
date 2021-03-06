@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Content from '../../../assets/images/home-content.png'
 import './style.css'
 
 class Connect extends Component {
@@ -29,6 +30,11 @@ class Connect extends Component {
           <input placeholder="Enter your email" id="lname" name="lname" />
           <div className="connect-input-div">
             <span>Request an invite</span>
+          </div>
+        </div>
+        <div className="content-img">
+          <div>
+            <img src={Content} />
           </div>
         </div>
       </>

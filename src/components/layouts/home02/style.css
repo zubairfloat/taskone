@@ -7,12 +7,13 @@
   );
   padding: 30px 70px !important;
 }
+
 .navbar h2 {
   color: white;
   font-size: 24px;
 }
 .nav-link {
-  color: white;
+  color: white !important;
 }
 
 .nav-item {
@@ -109,4 +110,137 @@
 .connect-input-div span {
   color: black;
   font-weight: 500;
+}
+
+.content-img {
+  background: -webkit-linear-gradient(
+    180deg,
+    #0e0d30 0%,
+    #0c1014 73.96%,
+    #14133d 100%
+  );
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 100px 0px;
+}
+
+.section-div {
+  padding: 100px 40px 100px 100px;
+  background-color: #f6f6f6;
+}
+.section2-collaborate p {
+  color: #939393;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0px 0px 0px;
+}
+
+.section2-recommand {
+  font-size: 59px;
+  font-weight: 500;
+  padding: 10px 0px;
+  color: #363636;
+}
+
+.section2-ipsum p {
+  color: #939393;
+  font-size: 22px;
+  font-weight: 700;
+}
+.section-image {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px 0px 0px;
+  background-color: #e8e8e8;
+}
+.section-image img {
+  width: 400px;
+}
+
+.section2-pipeline {
+  font-size: 59px;
+  font-weight: 500;
+  padding: 10px 0px;
+  color: #363636;
+}
+
+.section2-conenct p {
+  color: #939393;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0px 0px 0px;
+}
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px 0px 0px;
+}
+.about-heading h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 48px;
+}
+.about-lowhead {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+}
+.about-lowhead h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.multiple-cards {
+  padding: 30px 0px 100px 0px;
+}
+
+.about-circle {
+  height: 70px;
+  width: 70px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  display: inline-block;
+}
+.about-card-col {
+  display: flex;
+  justify-content: center;
+  background-color: #34374f;
+  margin: 30px;
+  padding: 50px 0px 0px 0px;
+  border-radius: 10px;
+}
+.about-card-col h1 {
+  font-size: 24px;
+  color: #c4c4c4;
+  padding: 5px 0px 0px 0px;
+}
+.about-card-col h2 {
+  font-size: 18px;
+  color: #c4c4c4;
+}
+
+.about-card-col p {
+  font-size: 18px;
+  color: #c4c4c4;
+  padding: 20px 0 0px 0;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #eeeeee;
+  margin: 30px 30px 160px 30px;
+  border-radius: 10px;
+  padding: 300px 0 50px 0;
+}
+.footer-title h1 {
+  padding: 0px 0px 0px 60px;
+}
+.footer-join-list {
+  background-color: white;
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #cdcdcd;
 }
