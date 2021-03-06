@@ -12,34 +12,36 @@ class Section2 extends Component {
   render() {
     return (
       <>
-        <div class="row section-div">
-          <div class=" section-col2 col-lg-6 col-sm-12">
-            <Row>
-              <Col className="section2-collaborate" sm="12" xl="12" lg="12">
-                <p>COLABORATE</p>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="section2-recommand" sm="12" xs="12" lg="12">
-                Recomandation on <br /> Account covrage
-              </Col>
-            </Row>
-            <Row>
-              <Col className="section2-ipsum" sm="12" xs="12" lg="12">
-                <p>
-                  Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                  elit, sed do <br />
-                  eiusmod tempor incididunt ut <br />
-                  labore et dolore magna aliqua.
-                </p>
-              </Col>
-            </Row>
-          </div>
-          <div class="section-col2 col-lg-6 col-sm-12">
-            <div className="section-image">
-              <img src={sectionImg} />
-            </div>
-          </div>
+        <div class="section-div">
+          <Row style={{ justifyContent: 'center' }}>
+            <Col class="section-col2" lg="5" sm="12" xs="12">
+              <Row>
+                <Col className="section2-collaborate" sm="12" xl="12" lg="12">
+                  <p>COLABORATE</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="section2-recommand" sm="12" xs="12" lg="12">
+                  Recomandation on <br /> Account covrage
+                </Col>
+              </Row>
+              <Row>
+                <Col className="section2-ipsum" sm="12" xs="12" lg="12">
+                  <p>
+                    Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
+                    elit, sed do <br />
+                    eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </Col>
+              </Row>
+            </Col>
+            <Col class="section-col2" lg="5" sm="12" xs="12">
+              <div className="section-image">
+                <img src={sectionImg} />
+              </div>
+            </Col>
+          </Row>
         </div>
         <div class="row section-div" style={{ backgroundColor: 'white' }}>
           <div class="section-col2 col-lg-6 col-sm-12">
@@ -73,34 +75,37 @@ class Section2 extends Component {
             </Row>
           </div>
         </div>
-        <div class="row section-div">
-          <div class=" section-col2 col-lg-6 col-sm-12">
-            <Row>
-              <Col className="section2-collaborate" sm="12" xl="12" lg="12">
-                <p>COLABORATE</p>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="section2-recommand" sm="12" xs="12" lg="12">
-                Centralized Account <br /> information
-              </Col>
-            </Row>
-            <Row>
-              <Col className="section2-ipsum" sm="12" xs="12" lg="12">
-                <p>
-                  Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                  elit, sed do <br />
-                  eiusmod tempor incididunt ut <br />
-                  labore et dolore magna aliqua.
-                </p>
-              </Col>
-            </Row>
-          </div>
-          <div class="section-col2 col-lg-6 col-sm-12">
-            <div className="section-image">
-              <img src={sectionImg} />
-            </div>
-          </div>
+
+        <div class="section-div">
+          <Row style={{ justifyContent: 'center' }}>
+            <Col class="section-col2" lg="5" sm="12" xs="12">
+              <Row>
+                <Col className="section2-collaborate" sm="12" xl="12" lg="12">
+                  <p>COLABORATE</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="section2-recommand" sm="12" xs="12" lg="12">
+                  Recomandation on <br /> Account covrage
+                </Col>
+              </Row>
+              <Row>
+                <Col className="section2-ipsum" sm="12" xs="12" lg="12">
+                  <p>
+                    Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
+                    elit, sed do <br />
+                    eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </Col>
+              </Row>
+            </Col>
+            <Col class="section-col2" lg="5" sm="12" xs="12">
+              <div className="section-image">
+                <img src={sectionImg} />
+              </div>
+            </Col>
+          </Row>
         </div>
       </>
     )
