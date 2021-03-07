@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Content from '../../../assets/images/home-content.png'
+import { Row, Col } from 'reactstrap'
 import './style.css'
 
 class Connect extends Component {
@@ -18,13 +19,12 @@ class Connect extends Component {
           </h1>
         </div>
         <div className="connect-div2">
-          <h4>
-            Sellr automates collaboration between sellers at the
-            <br />
-            <h4 style={{ textAlign: 'center', padding: '5px 0px' }}>
-              same organization by integrating with your CRM{' '}
-            </h4>
-          </h4>
+          <Row className="connect-div2-row">
+            <h4>Sellr automates collaboration between sellers at the</h4>
+          </Row>
+          <Row className="connect-div2-row">
+            <h4>same organization by integrating with your CRM </h4>
+          </Row>
         </div>
         <div className="connect-input">
           <input placeholder="Enter your email" id="lname" name="lname" />

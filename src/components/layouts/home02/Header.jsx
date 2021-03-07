@@ -1,13 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavLink,
-  NavItem,
-} from 'reactstrap'
+import { Collapse, Navbar, NavbarToggler } from 'reactstrap'
 import './style.css'
 
 const Header = () => {
@@ -18,7 +10,9 @@ const Header = () => {
     <div>
       <Navbar className="navabrClass" dark expand="md">
         <a className="navbar-brand" href="/">
-          <h2>SELLR.</h2>
+          <h2>
+            SELLR<span style={{ color: 'green' }}>.</span>
+          </h2>
         </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={!isOpen} navbar>

@@ -14,7 +14,13 @@ class Section2 extends Component {
       <>
         <div class="section-div">
           <Row style={{ justifyContent: 'center' }}>
-            <Col class="section-col2" lg="5" sm="12" xs="12">
+            <Col
+              class="section-col2"
+              style={{ margin: '50px' }}
+              lg="5"
+              sm="12"
+              xs="12"
+            >
               <Row>
                 <Col className="section2-collaborate" sm="12" xl="12" lg="12">
                   <p>COLABORATE</p>
@@ -22,7 +28,17 @@ class Section2 extends Component {
               </Row>
               <Row>
                 <Col className="section2-recommand" sm="12" xs="12" lg="12">
-                  Recomandation on <br /> Account covrage
+                  Recommendations on
+                </Col>
+              </Row>
+              <Row>
+                <Col
+                  className="section2-recommand-coverage"
+                  sm="12"
+                  xs="12"
+                  lg="12"
+                >
+                  account coverage
                 </Col>
               </Row>
               <Row>
@@ -43,42 +59,59 @@ class Section2 extends Component {
             </Col>
           </Row>
         </div>
-        <div class="row section-div" style={{ backgroundColor: 'white' }}>
-          <div class="section-col2 col-lg-6 col-sm-12">
-            <div className="section-image">
-              <img src={sectionImg} />
-            </div>
-          </div>
-          <div
-            class="section-col2 col-lg-6 col-sm-12"
-            style={{ padding: '50px 0px 0px 70px' }}
-          >
-            <Row>
-              <Col className="section2-conenct" sm="12" xl="12" lg="12">
-                <p>CONNECT</p>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="section2-pipeline" sm="12" xs="12" lg="12">
-                Pipeline tracking <br />
-              </Col>
-            </Row>
-            <Row>
-              <Col className="section2-ipsum" sm="12" xs="12" lg="12">
-                <p>
-                  Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                  elit, sed do <br />
-                  eiusmod tempor incididunt ut <br />
-                  labore et dolore magna aliqua.
-                </p>
-              </Col>
-            </Row>
-          </div>
-        </div>
 
         <div class="section-div">
           <Row style={{ justifyContent: 'center' }}>
+            <Col
+              class="section-col2"
+              style={{ margin: '50px' }}
+              lg="5"
+              sm="12"
+              xs="12"
+            >
+              <div className="section-image">
+                <img src={sectionImg} />
+              </div>
+            </Col>
             <Col class="section-col2" lg="5" sm="12" xs="12">
+              <Row>
+                <Col className="section2-collaborate" sm="12" xl="12" lg="12">
+                  <p>CONNECT</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="section2-recommand" sm="12" xs="12" lg="12">
+                  Pipeline tracking
+                </Col>
+              </Row>
+              <Row>
+                <Col
+                  className="section2-ipsum"
+                  style={{ padding: '20px 0px 0px 20px' }}
+                  sm="12"
+                  xs="12"
+                  lg="12"
+                >
+                  <p>
+                    Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
+                    elit, sed do <br />
+                    eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </div>
+        <div class="section-div">
+          <Row style={{ justifyContent: 'center' }}>
+            <Col
+              class="section-col2"
+              style={{ margin: '50px' }}
+              lg="5"
+              sm="12"
+              xs="12"
+            >
               <Row>
                 <Col className="section2-collaborate" sm="12" xl="12" lg="12">
                   <p>COLABORATE</p>
@@ -86,7 +119,17 @@ class Section2 extends Component {
               </Row>
               <Row>
                 <Col className="section2-recommand" sm="12" xs="12" lg="12">
-                  Recomandation on <br /> Account covrage
+                  Recommendations on
+                </Col>
+              </Row>
+              <Row>
+                <Col
+                  className="section2-recommand-coverage"
+                  sm="12"
+                  xs="12"
+                  lg="12"
+                >
+                  account coverage
                 </Col>
               </Row>
               <Row>

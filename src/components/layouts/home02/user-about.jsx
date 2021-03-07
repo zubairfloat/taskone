@@ -44,7 +44,12 @@ class AboutUser extends Component {
                 <Col lg="3" className="about-card-col">
                   <Col lg="12">
                     <Row>
-                      <Col lg="4" sm="4" xs="4">
+                      <Col
+                        lg={{ size: 3 }}
+                        sm="3"
+                        xs="3"
+                        style={{ margin: '0px 20px 0px 0px' }}
+                      >
                         <div className="about-circle"></div>
                       </Col>
                       <Col lg="8" sm="8" xs="8">

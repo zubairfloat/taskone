@@ -17,7 +17,7 @@ const Footer = () => {
           <Col lg="4">
             <div className="footer-join-list">
               <h2>
-                Join the wait list &nbsp; <AiOutlineArrowRight />
+                Join the Waitist &nbsp; <AiOutlineArrowRight />
               </h2>
             </div>
           </Col>

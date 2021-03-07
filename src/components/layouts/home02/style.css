@@ -14,6 +14,7 @@
 }
 .nav-link {
   color: white !important;
+  font-size: 15px !important;
 }
 
 .nav-item {
@@ -25,16 +26,17 @@
 }
 .invite {
   background-color: white;
-  height: 50px;
+  height: 42px;
   width: 160px;
   display: flex;
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 35px;
 }
 
 .invite span {
   color: black;
-  padding: 10px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
+  font-size: 15px;
 }
 .connect-div {
   background: -webkit-linear-gradient(
@@ -50,7 +52,7 @@
 
 .connect-div h1 {
   color: white;
-  font-size: 42px;
+  font-size: 60px;
   font-weight: 900;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
@@ -63,14 +65,17 @@
     #0c1014 73.96%,
     #14133d 100%
   );
-  display: flex;
-  justify-content: center;
+
   padding: 30px 0px 0px 0px;
+}
+
+.connect-div2-row {
+  justify-content: center;
 }
 
 .connect-div2 h4 {
   color: whitesmoke;
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -97,6 +102,7 @@
   padding: 20px;
   color: white;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .connect-input-div {
@@ -110,6 +116,7 @@
 .connect-input-div span {
   color: black;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .content-img {
@@ -138,20 +145,28 @@
 .section2-recommand {
   font-size: 59px;
   font-weight: 500;
-  padding: 10px 0px;
+  padding: 0px 0px;
   color: #363636;
+}
+
+.section2-recommand-coverage {
+  font-size: 59px;
+  font-weight: 500;
+  color: #363636;
+  bottom: 15px;
 }
 
 .section2-ipsum p {
   color: #939393;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: normal;
 }
 .section-image {
   display: flex;
   justify-content: center;
   padding: 60px 0px 0px 0px;
   background-color: #e8e8e8;
+  border-radius: 4px;
 }
 .section-image img {
   width: 400px;
@@ -178,7 +193,7 @@
 }
 .about-heading h1 {
   color: white;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 48px;
 }
 .about-lowhead {
@@ -188,7 +203,7 @@
 }
 .about-lowhead h1 {
   color: white;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 48px;
 }
 
@@ -212,17 +227,17 @@
   border-radius: 10px;
 }
 .about-card-col h1 {
-  font-size: 24px;
+  font-size: 16px;
   color: #c4c4c4;
   padding: 5px 0px 0px 0px;
 }
 .about-card-col h2 {
-  font-size: 18px;
+  font-size: 14px;
   color: #c4c4c4;
 }
 
 .about-card-col p {
-  font-size: 18px;
+  font-size: 16px;
   color: #c4c4c4;
   padding: 20px 0px 20px 0px;
   font-weight: 500;
@@ -258,5 +273,41 @@
   }
   .connect-input-div span {
     font-size: 12px;
+  }
+  .connect-div {
+    padding: 30px 0px 0px 0px;
+  }
+  .connect-div2-row {
+    padding: 0px 40px;
+  }
+  .about-heading h1 {
+    font-size: 42px;
+  }
+  .about-lowhead h1 {
+    font-size: 42px;
+  }
+  .footer-title h1 {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+  .footer-join-list h2 {
+    font-size: 22px;
+  }
+  .section2-recommand {
+    font-size: 48px;
+    text-align: center;
+  }
+  .section2-recommand-coverage {
+    font-size: 48px;
+    text-align: center;
+  }
+  .section2-collaborate p {
+    text-align: center;
+  }
+  .section2-ipsum p {
+    text-align: center;
+  }
+  .section-div {
+    padding: 10px 10px 100px 10px;
   }
 }
