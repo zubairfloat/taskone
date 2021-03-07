@@ -224,7 +224,7 @@
 .about-card-col p {
   font-size: 18px;
   color: #c4c4c4;
-  padding: 20px 0 0px 0;
+  padding: 20px 0px 20px 0px;
   font-weight: 500;
 }
 
@@ -236,6 +236,8 @@
 }
 .footer-title h1 {
   padding: 0px 0px 0px 60px;
+  opacity: 0.9;
+  font-size: 46px;
 }
 .footer-join-list {
   background-color: white;
@@ -243,4 +245,18 @@
   display: flex;
   justify-content: center;
   border: 1px solid #cdcdcd;
+  margin: 40px 20px 20px 20px;
+}
+
+/*.....Media Query.... */
+@media screen and (max-width: 766px) {
+  .navbar {
+    padding: 30px 20px !important;
+  }
+  .connect-div h1 {
+    padding: 0px 0px 0px 20px;
+  }
+  .connect-input-div span {
+    font-size: 12px;
+  }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'reactstrap'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 import './style.css'
 
 const Footer = () => {
@@ -9,13 +10,15 @@ const Footer = () => {
         <Row>
           <Col lg="8" className="footer-title">
             <h1>
-              Colaborate with your <br />
+              Collaborate with your <br />
               team today.
             </h1>
           </Col>
           <Col lg="4">
             <div className="footer-join-list">
-              <h2>Join the wait list</h2>
+              <h2>
+                Join the wait list &nbsp; <AiOutlineArrowRight />
+              </h2>
             </div>
           </Col>
         </Row>
