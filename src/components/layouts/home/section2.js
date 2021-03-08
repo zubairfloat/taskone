@@ -60,7 +60,7 @@ class Section2 extends Component {
           </Row>
         </div>
 
-        <div class="section-div">
+        <div class="section-div" style={{ backgroundColor: '#FFFFFF' }}>
           <Row style={{ justifyContent: 'center' }}>
             <Col
               class="section-col2"
