@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Content from '../../../assets/images/home-content.png'
-import { Row, Col } from 'reactstrap'
+import { Row } from 'react-bootstrap'
 import './style.css'
 
 class Connect extends Component {

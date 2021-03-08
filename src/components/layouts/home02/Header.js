@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Collapse, Navbar, NavbarToggler } from 'reactstrap'
+
+import { Navbar } from 'react-bootstrap'
 import './style.css'
 
 const Header = () => {
@@ -8,14 +9,15 @@ const Header = () => {
   const closetoggle = () => toggleNavbar(true)
   return (
     <div>
-      <Navbar className="navabrClass" dark expand="md">
+      <Navbar className="navabrClass" expand="md" variant="dark">
         <a className="navbar-brand" href="/">
           <h2>
             SELLR<span style={{ color: 'green' }}>.</span>
           </h2>
         </a>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={!isOpen} navbar>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+        <Navbar.Collapse id="basic-navbar-nav">
           <ul class="navbar-nav ml-auto">
             <li onClick={closetoggle} class="nav-item">
               <a class="nav-link" href="/">
@@ -39,7 +41,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-        </Collapse>
+        </Navbar.Collapse>
       </Navbar>
     </div>
   )

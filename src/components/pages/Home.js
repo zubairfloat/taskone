@@ -51,8 +51,8 @@ class Home extends Component {
         <Header />
         <Connect />
         <Section2 />
-        <AboutUser/>
-        <Footer/>
+        <AboutUser />
+        <Footer />
       </div>
     )
   }

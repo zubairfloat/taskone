@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'reactstrap'
+import { Row, Col } from 'react-bootstrap'
 import './style.css'
 
 class AboutUser extends Component {
@@ -41,18 +41,18 @@ class AboutUser extends Component {
           <Row style={{ justifyContent: 'center' }}>
             {this.state.card.map((data) => {
               return (
-                <Col lg="3" className="about-card-col">
-                  <Col lg="12">
+                <Col lg={3} className="about-card-col">
+                  <Col lg={12}>
                     <Row>
                       <Col
-                        lg={{ size: 3 }}
-                        sm="3"
-                        xs="3"
+                        lg={3}
+                        sm={3}
+                        xs={3}
                         style={{ margin: '0px 20px 0px 0px' }}
                       >
                         <div className="about-circle"></div>
                       </Col>
-                      <Col lg="8" sm="8" xs="8">
+                      <Col lg={8} sm={8} xs={8}>
                         <Row>
                           <h1>{data.title}</h1>
                         </Row>
