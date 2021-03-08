@@ -5,7 +5,7 @@ import {
   Section2,
   AboutUser,
   Footer,
-} from '../layouts/home02/index'
+} from '../layouts/home/index'
 
 class Home extends Component {
   constructor(props) {
