@@ -119,7 +119,7 @@ class Section2 extends Component {
               </Row>
               <Row>
                 <Col className="section2-recommand" sm={12} xs={12} lg={12}>
-                  Recommendations on
+                  Centralized account
                 </Col>
               </Row>
               <Row>
@@ -129,7 +129,7 @@ class Section2 extends Component {
                   xs={12}
                   lg={12}
                 >
-                  account coverage
+                  information
                 </Col>
               </Row>
               <Row>
